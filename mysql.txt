@@ -1,0 +1,1154 @@
+
+-----------------------POLITICO-----------------------------------
+
+CREATE TABLE Constitution (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    total_votes INT,
+    district VARCHAR(255),
+    state VARCHAR(255),
+    country VARCHAR(255),
+     reserved VARCHAR(255),
+     c_number INT
+);
+
+insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('SIRPUR', 'Komaram Bheem Asifabad', 'TS', 'INDIA', 'OPEN', 1);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('CHENNUR', 'Mancherial', 'TS', 'INDIA', 'SC', 2);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('BELLAMPALLY', 'Mancherial', 'TS', 'INDIA', 'SC',3);
+      insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('MANCHERIAL', 'Mancherial', 'TS', 'INDIA', 'OPEN', 4);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('ASIFABAD', 'Kumuram Bheem Asifabad', 'TS', 'INDIA', 'SC',5);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('KHANAPUR', 'NIRMAL', 'TS', 'INDIA', 'ST', 6);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('NIRMAL', 'NIRMAL', 'TS', 'INDIA', 'ST', 9);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('ADILABAD', 'ADILABAD', 'TS', 'INDIA', 'OPEN', 7);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('BOATH', 'ADILABAD', 'TS', 'INDIA', 'ST',8 );
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('Mudhole', 'NIRMAL', 'TS', 'INDIA', 'OPEN',10);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('Armoor', 'NIZAMABAD', 'TS', 'INDIA', 'OPEN',11);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('Bodhan', 'NIZAMABAD', 'TS', 'INDIA', 'OPEN',12);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('Jukkal', 'KAMAREDDY', 'TS', 'INDIA', 'SC',13);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('Bhansuwada', 'KAMAREDDY', 'TS', 'INDIA', 'OPEN',14);
+    insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('ELLAREDDY', 'KAMAREDDY', 'TS', 'INDIA', 'OPEN',15);
+       insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('KAMAREDDY', 'KAMAREDDY', 'TS', 'INDIA', 'OPEN',16);
+       insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('NIZAMABAD URBAN', 'NIZAMABAD', 'TS', 'INDIA', 'OPEN',17);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('NIZAMABAD RURAL', 'NIZAMABAD', 'TS', 'INDIA', 'OPEN',18);
+      insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('BALKONDA', 'NIZAMABAD', 'TS', 'INDIA', 'OPEN',19);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('KORUTLA', 'JAGITYAL', 'TS', 'INDIA', 'OPEN',20);
+     insert into politico.constitution (name, district, state, country, reserved, c_number)
+	values('JAGITYAL', 'JAGITYAL', 'TS', 'INDIA', 'OPEN',21);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('DHARMAPURI', 'JAGITYAL', 'TS', 'INDIA', 'SC', 22, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('RAMAGUNDAM', 'PEDDAPLLI', 'TS', 'INDIA', 'SC', 23, 2023);
+    insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MANTHANI', 'PEDDAPLLI', 'TS', 'INDIA', 'SC', 24, 2023);
+    insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('PEDDAPLLI', 'PEDDAPLLI', 'TS', 'INDIA', 'SC', 25, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KARIMNAGAR', 'KARIMNAGAR', 'TS', 'INDIA', 'OPEN', 26, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('CHOPPADANDI', 'KARIMNAGAR', 'TS', 'INDIA', 'SC', 27, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MANAKONDUR', 'KARIMNAGAR', 'TS', 'INDIA', 'SC', 30, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('Huzurabad', 'KARIMNAGAR', 'TS', 'INDIA', 'OPEN', 31, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('VEMULAWADA', 'Rajanna Sircilla', 'TS', 'INDIA', 'OPEN', 28, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SIRCILLA', 'Rajanna Sircilla', 'TS', 'INDIA', 'OPEN', 29, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('HUSNABAD', 'SIDDIPET', 'TS', 'INDIA', 'OPEN', 32, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SIDDIPET', 'SIDDIPET', 'TS', 'INDIA', 'OPEN', 33, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('DUBBAKA', 'SIDDIPET', 'TS', 'INDIA', 'OPEN', 41, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('GAJWEL', 'SIDDIPET', 'TS', 'INDIA', 'OPEN', 42, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SANGAREDDY', 'SANGAREDDY', 'TS', 'INDIA', 'SC', 39, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MEDCHAL', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA', 'OPEN', 43, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MALKAJGIRI', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA', 'OPEN', 44, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('QUTHBULLAPUR', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA', 'OPEN', 45, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KUKATPALLY', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA', 'OPEN', 46, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('UPPAL', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA', 'OPEN', 47, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('IBRAHIMPATNAM', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 48, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('LB NAGAR', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 49, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MAHESHWARAM', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 50, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('RAJENDRA NAGAR', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 51, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SERILINGAMPALLY', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 52, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('CHEVELLA', 'RANGAREDDY', 'TS', 'INDIA', 'SC', 53, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KALWAKURTHY', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 83, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SHADNAGAR', 'RANGAREDDY', 'TS', 'INDIA', 'OPEN', 84, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('PARIGI', 'VIKARABAD', 'TS', 'INDIA', 'OPEN', 54, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('VIKARABAD', 'VIKARABAD', 'TS', 'INDIA', 'SC', 55, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('TANDUR', 'VIKARABAD', 'TS', 'INDIA', 'OPEN', 56, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KODANGAL', 'VIKARABAD', 'TS', 'INDIA', 'OPEN', 72, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MUSHIRABAD', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 57, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MALKPET', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 58, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('AMBARPET', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 59, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KHAIRATHABAD', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 60, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('JUBLIHILLS', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 61, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SANATHNAGAR', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 62, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NAMPALLY', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 63, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KARWAN', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 64, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('GOSHAMAHAL', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 65, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('CHARMINAR', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 66, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('CHANDRAYANAGUTTA', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 67, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('YAKHUTHPURA', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 68, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('BAHADURPURA', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 69, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SECUNDRABAD', 'HYDERABAD', 'TS', 'INDIA', 'OPEN', 70, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('CANTONMENT', 'HYDERABAD', 'TS', 'INDIA', 'SC', 71, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NARAYANPET', 'NARAYANPET', 'TS', 'INDIA', 'OPEN', 73, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MAKTHAL', 'NARAYANPET', 'TS', 'INDIA', 'OPEN', 77, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MAHABUBNAGAR', 'MAHABUBNAGAR', 'TS', 'INDIA', 'OPEN', 74, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('JEDCHARLA', 'MAHABUBNAGAR', 'TS', 'INDIA', 'OPEN', 75, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('DEVARAKADRA', 'MAHABUBNAGAR', 'TS', 'INDIA', 'OPEN', 76, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('WANAPARTHY', 'WANAPARTHY', 'TS', 'INDIA', 'OPEN', 78, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('GADWAL', 'Jogulamba Gadwal', 'TS', 'INDIA', 'OPEN', 79, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('ALAMPUR', 'Jogulamba Gadwal', 'TS', 'INDIA', 'SC', 80, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NAGARKARNUL', 'NAGARKARNUL', 'TS', 'INDIA', 'OPEN', 81, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('ACHAMPET', 'NAGARKARNUL', 'TS', 'INDIA', 'SC', 82, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KOLLAPUR', 'NAGARKARNUL', 'TS', 'INDIA', 'OPEN', 85, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('DEVARAKONDA', 'NALGONDA', 'TS', 'INDIA', 'ST', 86, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NAGARJUNA SAGAR', 'NALGONDA', 'TS', 'INDIA', 'OPEN', 87, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MIRYALAGUDA', 'NALGONDA', 'TS', 'INDIA', 'OPEN', 88, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NALGONDA', 'NALGONDA', 'TS', 'INDIA', 'OPEN', 92, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MUNUGOD', 'NALGONDA', 'TS', 'INDIA', 'OPEN', 93, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NAKHREKAL', 'NALGONDA', 'TS', 'INDIA', 'OPEN', 95, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('HUZURNAGAR', 'SURYAPETA', 'TS', 'INDIA', 'OPEN', 89, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KODAD', 'SURYAPETA', 'TS', 'INDIA', 'OPEN', 90, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SURYAPETA', 'SURYAPETA', 'TS', 'INDIA', 'OPEN', 91, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('THUNGATHURTHI', 'SURYAPETA', 'TS', 'INDIA', 'SC', 96, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('BHUVANAGIRI', 'YADADRI-BHUVANAGIRI', 'TS', 'INDIA', 'OPEN', 94, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('ALAIR', 'YADADRI-BHUVANAGIRI', 'TS', 'INDIA', 'OPEN', 97, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('JANAGOAN', 'JANAGOAN', 'TS', 'INDIA', 'OPEN', 98, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('ST-GHANPUR', 'JANAGOAN', 'TS', 'INDIA', 'SC', 99, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('PALAKURTHY', 'JANAGOAN', 'TS', 'INDIA', 'OPEN', 100, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('DORNAKAL', 'MAHABUBABAD', 'TS', 'INDIA', 'ST', 101, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MAHABUBABAD', 'MAHABUBABAD', 'TS', 'INDIA', 'ST', 102, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('NARSAMPET', 'WARANGAL-RURAL', 'TS', 'INDIA', 'OPEN', 103, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('PARAKALA', 'WARANGAL-RURAL', 'TS', 'INDIA', 'OPEN', 104, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('WARANGAL-WEST', 'WARANGAL-URBAN', 'TS', 'INDIA', 'OPEN', 105, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('WARANGAL-EAST', 'WARANGAL-URBAN', 'TS', 'INDIA', 'OPEN', 106, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('WARADHANAPET', 'WARANGAL-URBAN', 'TS', 'INDIA', 'SC', 107, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('BHUPALAPALLE', 'Jayashankar-BHUPALAPALLE', 'TS', 'INDIA', 'OPEN', 108, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MULUGU', 'MULUGU', 'TS', 'INDIA', 'ST', 109, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('PINAPAKA', 'Bhadradri', 'TS', 'INDIA', 'ST', 110, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('YELLANDU', 'Bhadradri', 'TS', 'INDIA', 'ST', 111, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KOTHAGUDEM', 'Bhadradri', 'TS', 'INDIA', 'OPEN', 117, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('ASWARAOPETA', 'Bhadradri', 'TS', 'INDIA', 'ST', 118, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('BHADRACHALAP', 'Bhadradri', 'TS', 'INDIA', 'ST', 119, 2023);
+  insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('KHAMMAM', 'KHAMMAM', 'TS', 'INDIA', 'OPEN', 112, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('PALERU', 'KHAMMAM', 'TS', 'INDIA', 'OPEN', 113, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('MADHIRA', 'KHAMMAM', 'TS', 'INDIA', 'SC', 114, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('WYRA', 'KHAMMAM', 'TS', 'INDIA', 'ST', 115, 2023);
+insert into politico.constitution (name, district, state, country, reserved, c_number, year)
+	values('SATHUPALLE', 'KHAMMAM', 'TS', 'INDIA', 'SC', 116, 2023);
+  
+
+
+CREATE TABLE Candidate (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    DateOfBirth DATE,
+    qualification VARCHAR(255),
+    assets_value DECIMAL(15, 2),
+    party VARCHAR(255),
+    address VARCHAR(255),
+    district VARCHAR(255),
+    state VARCHAR(255),
+    country VARCHAR(255)
+);
+
+CREATE TABLE Election (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date_of_announcement DATE,
+    year INT,
+    results_date DATE,
+    state VARCHAR(255),
+    country VARCHAR(255)
+);
+
+CREATE TABLE Results (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    constitution_name VARCHAR(255),
+    candidate_name VARCHAR(255),
+    party_name VARCHAR(255),
+    results_date DATE,
+    votes_acquired INT,
+    position_acquired_in_constitution INT,
+    deposit_hold ENUM('yes', 'no'),
+    district VARCHAR(255),
+    state VARCHAR(255),
+    country VARCHAR(255)
+);
+
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIRPUR', 'PALVAI HARISH BABU', 'BJP', '2023-12-03', 63043, 1, 'YES', 'Komaram Bheem Asifabad', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIRPUR', 'KONERU KONAPPA', 'BRS', '2023-12-03', 60000, 2, 'YES', 'Komaram Bheem Asifabad', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIRPUR', 'RS PRAVEEN KUMAR', 'BSP', '2023-12-03', 43589, 3, 'YES', 'Komaram Bheem Asifabad', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BELLAMPALLI', 'GADDAM VINODH', 'NCP', '2023-12-03', 82217 , 1, 'YES', 'MANCHERIAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BELLAMPALLI', 'DURGAM CHINNAIH', 'BRS', '2023-12-03', 45339 , 2, 'YES', 'MANCHERIAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BELLAMPALLI', 'AMURAJULA SRIDEVI', 'BJP', '2023-12-03', 3812 , 3, 'YES', 'MANCHERIAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANCHERIAL', 'KOKKIRAL PREMSAGAR RAO', 'NCP', '2023-12-03', 105945 , 1, 'YES', 'MANCHERIAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANCHERIAL', 'VERABELLI RAGHUNATH', 'BJP', '2023-12-03', 39829 , 2, 'YES', 'MANCHERIAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANCHERIAL', 'NADIPALLI DIWAKAR RAO', 'BRS', '2023-12-03', 37989 , 3, 'YES', 'MANCHERIAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ASIFABAD', 'KOVA LAXMI', 'BRS', '2023-12-03', 82757 , 1, 'YES', 'KOMARAMBHEEM ASIFABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ASIFABAD', 'AZMEERA SHYAM NAYAK', 'NCP', '2023-12-03', 59756 , 2, 'YES', 'KOMARAMBHEEM ASIFABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ASIFABAD', 'KOTNAK VIJAY KUMAR', 'INDEPENDENT', '2023-12-03', 16380 , 3, 'YES', 'KOMARAMBHEEM ASIFABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHANAPUR', 'VEDMA BOJJU', 'NCP', '2023-12-03', 58200 , 1, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHANAPUR', 'JOHNSON NAYAK', 'BRS', '2023-12-03', 53981 , 2, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHANAPUR', 'RAMESH RATHOD', 'BJP', '2023-12-03', 51515 , 3, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ADILABAD', 'PAYAL SHANKER', 'BJP', '2023-12-03', 66468 , 1, 'YES', 'ADILABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ADILABAD', 'JOGU RAMANNA', 'BRS', '2023-12-03', 60321 , 2, 'YES', 'ADILABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ADILABAD', 'KANDI SRINIVAS REDDY', 'NCP', '2023-12-03', 46763 , 3, 'YES', 'ADILABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BOATH', 'ANIl JADHAV', 'BRS', '2023-12-03', 76792 , 1, 'YES', 'ADILABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BOATH', 'SOYAM BAPURAO', 'BJP', '2023-12-03', 53992 , 2, 'YES', 'ADILABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BOATH', 'KANDI SRINIVAS REDDY', 'NCP', '2023-12-03', 32797 , 3, 'YES', 'ADILABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIRMAL', 'YELETI MAHESHWER REDDY', 'BJP', '2023-12-03', 104642 , 1, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIRMAL', 'ALLOLLA INDRAKARAN REDDY', 'BRS', '2023-12-03', 55697 , 2, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIRMAL', 'KUCHADI SRIHARI ROA', 'NCP', '2023-12-03', 28642 , 3, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUDHOLE', 'PAWAR RAMARAO PATIL', 'BJP', '2023-12-03', 96799 , 1, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUDHOLE', 'GADDIGARI VITAL REDDY', 'BRS', '2023-12-03', 73380 , 2, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUDHOLE', 'V NARAYANA ROA PATIL', 'NCP', '2023-12-03', 15394 , 3, 'YES', 'NIRMAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ARMOOR', 'PAIDI RAKESH REDDY', 'BJP', '2023-12-03', 72658 , 1, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ARMOOR', 'PRODDUTURI VINAY REDDY', 'NCP', '2023-12-03', 42989 , 2, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ARMOOR', 'ASHANNA GARI JEEVAN REDDY', 'BRS', '2023-12-03', 39395 , 3, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BODHAN', 'PRODDUTURI SUDHARSHAN REDDY', 'NCP', '2023-12-03', 66963 , 1, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BODHAN', 'SHAKHIL AMER', 'BRS', '2023-12-03', 63901 , 2, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BODHAN', 'VADDI MOHAN REDDY', 'BJP', '2023-12-03', 33555 , 3, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JUKKAL', 'THOTA LAKSHMIKANTHA RAO', 'NCP', '2023-12-03', 64489 , 1, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JUKKAL', 'HANMANTH SHINDE', 'BRS', '2023-12-03', 63337 , 2, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JUKKAL', 'ARUNATARA', 'BJP', '2023-12-03', 28437 , 3, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BANSUWADA', 'POCHARAM SRINIVAS REDDY', 'BRS', '2023-12-03', 76278 , 1, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BANSUWADA', 'HANMANTH ENUGU RAVINDER REDDY', 'NCP', '2023-12-03', 52814 , 2, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BANSUWADA', 'YENDALA LAXMINARAYANA', 'BJP', '2023-12-03', 23685 , 3, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('YELLAREDDY', 'MADHAN MOHAN RAO', 'NCPS', '2023-12-03', 86989 , 1, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('YELLAREDDY', 'JAJALA SURENDER', 'BRS', '2023-12-03', 62988 , 2, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('YELLAREDDY', 'VADDEPALLI SUBHASH REDDY', 'BJP', '2023-12-03', 27000 , 3, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KAMAREDDY', 'KATIPALLI VENKATARAMANA REDDY', 'BJP', '2023-12-03', 66652 , 1, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KAMAREDDY', 'KALVAKUNTLA CHANDRASEKAR RAO', 'BRS', '2023-12-03', 59911 , 2, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KAMAREDDY', 'ANUMULA REVANTH REDDY', 'NCP', '2023-12-03', 54916 , 3, 'YES', 'KAMAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIZAMABAD-RURAL', 'REKULAPALLI BHUPATHIREDDY', 'NCP', '2023-12-03', 78378 , 1, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIZAMABAD-RURAL', 'BAJIREDDY GOVARDHAN', 'BRS', '2023-12-03', 56415 , 2, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIZAMABAD-RURAL', 'DINESH KULACHARY', 'BJP', '2023-12-03', 49723 , 3, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIZAMABAD-URBAN', 'DHANPAL SURYANARAYANA', 'BJP', '2023-12-03', 75240 , 1, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIZAMABAD-URBAN', 'SHABBIR ALI', 'NCP', '2023-12-03', 59853 , 2, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NIZAMABAD-URBAN', 'BIGALA GANESH GUPTA', 'BRS', '2023-12-03', 44829 , 3, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BALKONDA', 'VEMULA PRASHANTH REDDY', 'BRS', '2023-12-03', 70417 , 1, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BALKONDA', 'MUTHYALA SUNEEL REDDY', 'NCP', '2023-12-03', 65884 , 2, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BALKONDA', 'YELETI ANNAPURNAMMA', 'BJP', '2023-12-03', 30250 , 3, 'YES', 'NIZAMABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KORUTLA', 'KALVAKUNTLA SANJAY', 'BRS', '2023-12-03', 72115 , 1, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KORUTLA', 'DHARMAPURI ARVIND', 'BJP', '2023-12-03', 61810 , 2, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KORUTLA', 'JUVVADI NARSINGA RAO', 'NCP', '2023-12-03', 39647 , 3, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JAGITYAL', 'DR M SANJAY KUMAR', 'BRS', '2023-12-03', 70243 , 1, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JAGITYAL', 'T JEEVAN REDDY', 'NCP', '2023-12-03', 54421 , 2, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JAGITYAL', 'BOGA SRAVANI', 'BJP', '2023-12-03', 42138 , 3, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DHARMAPURI', 'ADLURI LAXMAN KUMAR', 'NCP', '2023-12-03', 91393 , 1, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DHARMAPURI', 'KOPPULA ESHWAR', 'BRS', '2023-12-03', 69354 , 2, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DHARMAPURI', 'S KUMAR', 'BJP', '2023-12-03', 7345 , 3, 'YES', 'JAGITYAL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('RAMAGUNDAM', 'ADLURI LAXMAN KUMAR', 'NCP', '2023-12-03', 92227 , 1, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('RAMAGUNDAM', 'KORUKANTI CHANDER', 'BRS', '2023-12-03', 35433 , 2, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('RAMAGUNDAM', 'KANDULA SANDHYARANI', 'BJP', '2023-12-03', 12966 , 3, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANTHANI', 'DUDDILLA SRIDHAR BABU', 'NCP', '2023-12-03', 103822 , 1, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANTHANI', 'PUTTA MADHUKAR', 'BRS', '2023-12-03', 72442 , 2, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANTHANI', 'SUNEEL REDDY', 'BJP', '2023-12-03', 5779 , 3, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PEDDAPALLI', 'VIJAYARAMANARAO', 'NCP', '2023-12-03', 118888 , 1, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PEDDAPALLI', 'DASARI MANOHARA REDDY', 'BRS', '2023-12-03', 63780 , 2, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PEDDAPALLI', 'DASARI USHA', 'BSP', '2023-12-03', 10315 , 3, 'YES', 'PEDDAPALLI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KARIMNAGAR', 'GANGULA KAMALAKAR', 'BRS', '2023-12-03', 92174 , 1, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KARIMNAGAR', 'BANDI SANJAY', 'BJP', '2023-12-03', 89005 , 2, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KARIMNAGAR', 'PURAMALLA SRINIVAS', 'NCP', '2023-12-03', 40052 , 3, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHOPPADANDI', 'MEDIPALLY SATHYAM', 'NCP', '2023-12-03', 90395 , 1, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHOPPADANDI', 'SUNKE RAVISHANKER', 'BRS', '2023-12-03', 52956 , 2, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHOPPADANDI', 'BODIGA SHOBHA', 'BJP', '2023-12-03', 26669 , 3, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('VEMULAVADA', 'ADI SRIVIVAS', 'NCP', '2023-12-03', 71451 , 1, 'YES', 'SIRICILLA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('VEMULAVADA', 'CHALMEDA LAXMINARASIMHARAO', 'BRS', '2023-12-03', 58870 , 2, 'YES', 'SIRICILLA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('VEMULAVADA', 'CHENNAMANENI VIKASRAO', 'BJP', '2023-12-03', 29370 , 3, 'YES', 'SIRICILLA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIRICILLA', 'KTR', 'BRS', '2023-12-03', 89244 , 1, 'YES', 'SIRICILLA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIRICILLA', 'KK MAHENDER REDDY', 'NCP', '2023-12-03', 59557 , 2, 'YES', 'SIRICILLA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIRICILLA', 'RANI RUDRAMAREDDY', 'BJP', '2023-12-03', 18328 , 3, 'YES', 'SIRICILLA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANAKONDUR', 'KAVVAMPALLY SATYANARAYANA', 'NCP', '2023-12-03', 96773 , 1, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANAKONDUR', 'RASAMAI BALAKISHAN', 'BRS', '2023-12-03', 64408 , 2, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MANAKONDUR', 'AREPALLY MOHAN', 'BJP', '2023-12-03', 14879 , 3, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUZURABAD', 'PADI KAUSHIK REDDY', 'BRS', '2023-12-03', 80333 , 1, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUZURABAD', 'ETELA RAJENDER', 'BJP', '2023-12-03', 63460 , 2, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUZURABAD', 'ODITELA PRANAV', 'BJP', '2023-12-03', 53164 , 3, 'YES', 'KARIMNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUSNABAD', 'PONNAM PRABHAKAR', 'NCP', '2023-12-03', 100955 , 1, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUSNABAD', 'ODITELA SATISH KUMAR', 'BRS', '2023-12-03', 81611 , 2, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUSNABAD', 'BOMMA SRIRAMCHAKRAVARTHY', 'BJP', '2023-12-03', 8338 , 3, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIDDIPET', 'TANNIR HARISHRAO', 'BRS', '2023-12-03', 105515 , 1, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIDDIPET', 'POOJALA HARIKRISHNA', 'NCP', '2023-12-03', 23206 , 2, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SIDDIPET', 'DUDI SRIKANTHREDDY', 'BJP', '2023-12-03', 23201 , 3, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MEDAK', 'MINAMPALLY ROHITRAO', 'NCP', '2023-12-03', 87126 , 1, 'YES', 'MEDAK', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MEDAK', 'PADMA DEVENDERREDDY', 'BRS', '2023-12-03', 76969 , 2, 'YES', 'MEDAK', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MEDAK', 'PANJA VIJAYKUMAR', 'BJP', '2023-12-03', 13657 , 3, 'YES', 'MEDAK', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARAYANKHED', 'PATOLLA SANJIVAREDDY', 'NCP', '2023-12-03', 90281 , 1, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARAYANKHED', 'M BHOOPALREDDY', 'BRS', '2023-12-03', 84515 , 2, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARAYANKHED', 'JANWADE SANGAPPA', 'BJP', '2023-12-03', 6039 , 3, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ANDOLE', 'DAMODARA RAJANARASIMHA', 'NCP', '2023-12-03', 113104 , 1, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ANDOLE', 'CHANTI KRANTHI KIRAN', 'BRS', '2023-12-03', 85677 , 2, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ANDOLE', 'BABU MOHAN', 'BJP', '2023-12-03', 5462 , 3, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARSAPUR', 'VAKITI SUNITHA LAXMAREDDY', 'BRS', '2023-12-03', 88410 , 1, 'YES', 'MEDAK', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARSAPUR', 'AVULA RAJIREDDY', 'NCP', '2023-12-03', 79555 , 2, 'YES', 'MEDAK', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARSAPUR', 'BABU MOHANRALI YADHAV', 'BJP', '2023-12-03', 22865 , 3, 'YES', 'MEDAK', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ZAHEERABAD', 'KONINTI MANIKRAO', 'BRS', '2023-12-03', 97205 , 1, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ZAHEERABAD', 'AGAM CHANDRASEKAR', 'NCP', '2023-12-03', 84415 , 2, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ZAHEERABAD', 'DAMODARA RAMCHANDER', 'BJP', '2023-12-03', 13645 , 3, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SANGAREDDY', 'CHINTHA PRABHAKAR', 'BRS', '2023-12-03', 82614 , 1, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SANGAREDDY', 'TOORPU JAYAPRAKASHREDDY', 'NCP', '2023-12-03', 73317 , 2, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SANGAREDDY', 'PULIMAMIDI RAJU', 'BJP', '2023-12-03', 20509 , 3, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PATANCHERU', 'GUDEM MAHIPALREDDY', 'BRS', '2023-12-03', 105166 , 1, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PATANCHERU', 'KATA SRINIVASAGOUD', 'NCP', '2023-12-03', 97738 , 2, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PATANCHERU', 'NEELAM MADHU', 'BJP', '2023-12-03', 46059 , 3, 'YES', 'SANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DUBBAKA', 'KOTHA PRABHAKAR REDDY', 'BRS', '2023-12-03', 97879 , 1, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DUBBAKA', 'RAGHUNANDAN RAO', 'BJP', '2023-12-03', 44366 , 2, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DUBBAKA', 'CHERUKU SRINIVASREDDY', 'BJP', '2023-12-03', 24947 , 3, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GAJWEL', 'KCR', 'BRS', '2023-12-03', 111244 , 1, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GAJWEL', 'ETELA RAJENDER', 'BJP', '2023-12-03', 65961 , 2, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GAJWEL', 'THUMKUNTA NARSAREDDY', 'NCP', '2023-12-03', 32322 , 3, 'YES', 'SIDDIPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MEDCHAL', 'CHAMAKURA MALLAREDDY', 'BRS', '2023-12-03', 186017 , 1, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MEDCHAL', 'THOTAKURA VAJRESHYADAV', 'NCP', '2023-12-03', 152598 , 2, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MEDCHAL', 'ENUGU SUDARSHANREDDY', 'BJP', '2023-12-03', 50535 , 3, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MALKAJGIRI', 'MARRI RAJSEKHARREDDY', 'BRS', '2023-12-03', 125049 , 1, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MALKAJGIRI', 'MINAMPALLI HANMANTHRAO', 'NCP', '2023-12-03', 75519 , 2, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MALKAJGIRI', 'RAMCHANDRARAO', 'BJP', '2023-12-03', 49530 , 3, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('QUTHBULLAPUR', 'KP VIVEKANAND', 'BRS', '2023-12-03', 187999 , 1, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('QUTHBULLAPUR', 'KUNA SRISILAMGOUD', 'BJP', '2023-12-03', 102423 , 2, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('QUTHBULLAPUR', 'KOLANU HANMANTHUREDDY', 'NCP', '2023-12-03', 101554 , 3, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KUKATPALLY', 'MADHAVARAM KRISHNARAO', 'BRS', '2023-12-03', 135635 , 1, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KUKATPALLY', 'BANDI RAMESH', 'NCP', '2023-12-03', 65248 , 2, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KUKATPALLY', 'MAMMAREDDY PREMKUMAR', 'JANASENA', '2023-12-03', 39830 , 3, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('UPPAL', 'BANDARI LAXMAREDDY', 'BRS', '2023-12-03', 132927 , 1, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('UPPAL', 'MANDMULA PARAMESHWARREDDY', 'NCP', '2023-12-03', 83897 , 2, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('UPPAL', 'NVSS PRABHAKAR', 'BJP', '2023-12-03', 47322 , 3, 'YES', 'MEDCHAL-MALKAJGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('IBHRAHIMPATNAM', 'MALREDDY RANGAREDDY', 'NCP', '2023-12-03', 124447 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('IBHRAHIMPATNAM', 'MANCHIREDDY KISHANREDDY', 'BRS', '2023-12-03', 84320 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('IBHRAHIMPATNAM', 'NOMULA DAYANANDGOUD', 'BJP', '2023-12-03', 15604 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('LBNAGAR', 'DEVIREDDY SUDHEERREDDY', 'BRS', '2023-12-03', 111197 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('LBNAGAR', 'SAMA RANGAREDDY', 'BJP', '2023-12-03', 88883 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('LBNAGAR', 'MADHUYASKI GOUD', 'BJP', '2023-12-03', 83157 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHESWARAM', 'P SABITHA INDRAREDDY', 'BRS', '2023-12-03', 125416 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHESWARAM', 'ANDELA SRIRAMULU', 'BJP', '2023-12-03', 99096 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHESWARAM', 'KICHENNAGARI LAXMAREDDY', 'NCP', '2023-12-03', 70515 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('RAJENDRANAGAR', 'T PRAKASHGOUD', 'BRS', '2023-12-03', 121283 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('RAJENDRANAGAR', 'TOKALA SRINIVASREDDY', 'BJP', '2023-12-03', 88978 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('RAJENDRANAGAR', 'KASTURI NARENDER', 'NCP', '2023-12-03', 81055 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SERLINGAMPALLY', 'AREKEPUDI GANDHI', 'BRS', '2023-12-03', 157557 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SERLINGAMPALLY', 'V JAGADISHWERGOUD', 'NCP', '2023-12-03', 110934 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SERLINGAMPALLY', 'M RAVIKUMAR YADAV', 'BJP', '2023-12-03', 80293 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHEVELLA', 'KALE YADAIAH', 'BRS', '2023-12-03', 76210 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHEVELLA', 'PAMENA BHEEMBHARATH', 'NCP', '2023-12-03', 75934 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHEVELLA', 'KS RATNAM', 'BJP', '2023-12-03', 38450 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PARIGI', 'TAMMANAGARI RAMMOHANREDDY', 'NCP', '2023-12-03', 98103 , 1, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PARIGI', 'KOPPULA MAHESHREDDY', 'BRS', '2023-12-03', 74227 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PARIGI', 'B MARUTHIKIRAN', 'BJP', '2023-12-03', 16597 , 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('VIKARABAD', 'GADDAM PRASADKUMAR', 'NCP', '2023-12-03', 86488 , 1, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('VIKARABAD', 'DR METHUKU ANAND', 'BRS', '2023-12-03', 73806 , 2, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('VIKARABAD', 'NAVEEN KUMAR', 'BJP', '2023-12-03', 7127 , 3, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('THANDURU', 'BUYYANI MANOHARREDDY', 'NCP', '2023-12-03', 86664 , 1, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('THANDURU', 'PILOT ROHITHREDDY', 'BRS', '2023-12-03', 78079 , 2, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('THANDURU', 'NEMOORI SHANKERGOUD', 'BJP', '2023-12-03', 4087 , 3, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KODANGAL', 'ANUMULA REVANTHREDDY', 'NCP', '2023-12-03', 107429 , 1, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KODANGAL', 'PATNAM NARENDERREDDY', 'BRS', '2023-12-03', 74897 , 2, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KODANGAL', 'BANTU RAMESH', 'BJP', '2023-12-03', 3988 , 3, 'YES', 'VIKARABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUSHEERABAD', 'MUTA GOPAL', 'BRS', '2023-12-03', 75207 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUSHEERABAD', 'M ANJAN KUMARYADAV', 'NCP', '2023-12-03', 37410 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUSHEERABAD', 'POOSA RAJU', 'BJP', '2023-12-03', 35423 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MALAKPET', 'HAMDBIN ABUDULLA BALALA', 'MIM', '2023-12-03', 55609 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MALAKPET', 'SHAIL AKBAR', 'NCP', '2023-12-03', 29516 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MALAKPET', 'SAMREDDY SURENDERREDDY', 'BJP', '2023-12-03', 23535 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('AMBARPET', 'KALERU VENKATESH', 'BRS', '2023-12-03', 74416 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('AMBARPET', 'C KRISHNAYADAV', 'BJP', '2023-12-03', 49879 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('AMBARPET', 'DR ROHITH REDDY', 'NCP', '2023-12-03', 18004 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHAIRATHABAD', 'DANAM NAGENDER', 'BRS', '2023-12-03', 67165 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHAIRATHABAD', 'P VIJAYAREDDY', 'NCP', '2023-12-03', 45061 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHAIRATHABAD', 'CHINTHALA RAMCHANDRAREDDY', 'BJP', '2023-12-03', 37931 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JUBLIHILLS', 'MAGANTI GOPINATH', 'BRS', '2023-12-03', 80175 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JUBLIHILLS', 'AZHARUDDIN', 'NCP', '2023-12-03', 63838 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JUBLIHILLS', 'LANKALA DEEPAKREDDY', 'BJP', '2023-12-03', 7829 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SANATHNAGAR', 'TALASANI SRINIVASYADAV', 'BRS', '2023-12-03', 72557 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SANATHNAGAR', 'MARRI SHASHIDHARREDDY', 'BJP', '2023-12-03', 30730 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SANATHNAGAR', 'KOTA NEELIMA', 'BJP', '2023-12-03', 22492 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAMPALLY', 'MAHAMMED MAJID HUSSAIN', 'MAJLIS', '2023-12-03', 62063 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAMPALLY', 'FEROJKHAN', 'NCP', '2023-12-03', 59888 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAMPALLY', 'CH ANANDKUMAR GOUD', 'BRS', '2023-12-03', 15378 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KARWAN', 'KAUSAR MOINUDDIN', 'MAJLIS', '2023-12-03', 83388 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KARWAN', 'AMARSINGH', 'BJP', '2023-12-03', 41412 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KARWAN', 'AINDALA KRISHNA', 'BRS', '2023-12-03', 29194 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GOSHAMAHAL', 'T RAJASINGH', 'BJP', '2023-12-03', 80182 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GOSHAMAHAL', 'NANADAKISHORE VYAS BILALA', 'BRS', '2023-12-03', 58725 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GOSHAMAHAL', 'MOGILI SUNITHARAO', 'NCP', '2023-12-03', 6265 , 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHARMINAR', 'MIR JULFIKAR ALI', 'MAJLIS', '2023-12-03', 49002 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHARMINAR', 'MEGHARANI', 'BJP', '2023-12-03', 26144 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHARMINAR', 'MOHAMMED NUJIB ULLASHARIF', 'NCP', '2023-12-03', 10856, 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHANDRAYANAGUTTA', 'AKBARUDDIN OYC', 'MAJLIS', '2023-12-03', 99776 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHANDRAYANAGUTTA', 'M SEETHARAMREDDY', 'BRS', '2023-12-03', 18116 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CHANDRAYANAGUTTA', 'KAUDI MAHENDER', 'NCP', '2023-12-03', 16414, 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('YAKUTPURA', 'JAFFERHUSSAIN MERAJ', 'MAJLIS', '2023-12-03', 46010 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('YAKUTPURA', 'HAMMED ULLAKHAN', 'MBT', '2023-12-03', 45200 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('YAKUTPURA', 'VEERENDRABABU YADAV', 'BJP', '2023-12-03', 22165, 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BAHUDURPURA', 'MOHAMMED MUBEEN', 'MAJLIS', '2023-12-03', 89451 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BAHUDURPURA', 'MEER INAYATH ALI BAKRI', 'BRS', '2023-12-03', 22426 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BAHUDURPURA', 'Y NARESH', 'BJP', '2023-12-03', 11621, 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SECUNDRABAD', 'T PADMARAO', 'BRS', '2023-12-03', 78223 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SECUNDRABAD', 'ADAM SANTHOSHKUMAR', 'NCP', '2023-12-03', 32983 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SECUNDRABAD', 'MEKALA SARANGAPANI', 'BJP', '2023-12-03', 25202, 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CANTONMENT', 'TLASYA NADITHA', 'BRS', '2023-12-03', 59057 , 1, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CANTONMENT', 'SRi GANESH NARAYAN', 'BJP', '2023-12-03', 41888 , 2, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('CANTONMENT', 'G VENNELA', 'BJP', '2023-12-03', 20826, 3, 'YES', 'HYDERABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARAYANPET', 'PARNIKA REDDY', 'NCP', '2023-12-03', 84708 , 1, 'YES', 'NARAYANPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARAYANPET', 'RAJENDER REDDY', 'BRS', '2023-12-03', 76757 , 2, 'YES', 'NARAYANPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARAYANPET', 'RATHANGPANDREDDY', 'BJP', '2023-12-03', 15078, 3, 'YES', 'NARAYANPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAKTHAL', 'VAKITI SRIHARI', 'NCP', '2023-12-03', 74917 , 1, 'YES', 'NARAYANPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAKTHAL', 'CHITTEM RAMMOHAN REDDY', 'BRS', '2023-12-03', 57392 , 2, 'YES', 'NARAYANPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAKTHAL', 'M JALANDHARREDDY', 'BJP', '2023-12-03', 45455, 3, 'YES', 'NARAYANPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHABUBNAGAR', 'YENNEM SRINIVASREDDY', 'NCP', '2023-12-03', 87227 , 1, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHABUBNAGAR', 'V SRINIVAS GOUD', 'BRS', '2023-12-03', 68489 , 2, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHABUBNAGAR', 'AP MITHUN REDDY', 'BJP', '2023-12-03', 19919, 3, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JADCHERLA', 'J ANIRUDHREDDY', 'NCP', '2023-12-03', 90865 , 1, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JADCHERLA', 'C LAXMAREDDY', 'BRS', '2023-12-03', 75694 , 2, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JADCHERLA', 'CHITTARANJAN DAS', 'BJP', '2023-12-03', 7312, 3, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DEVARKADRA', 'G MADHUSUDHAN REDDY', 'NCP', '2023-12-03', 88551 , 1, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DEVARKADRA', 'ALA VENKATESHWARAREDDY', 'BRS', '2023-12-03', 87159 , 2, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DEVARKADRA', 'KONDA PRASHANTH REDDY', 'BJP', '2023-12-03', 13164, 3, 'YES', 'MAHABUBNAGAR', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WANAPARTHY', 'MEGHA REDDY', 'NCP', '2023-12-03', 107115 , 1, 'YES', 'WANAPARTHY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WANAPARTHY', 'NIRANJAN REDDY', 'BRS', '2023-12-03', 81795 , 2, 'YES', 'WANAPARTHY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WANAPARTHY', 'ANUJNA REDDY', 'BJP', '2023-12-03', 9185, 3, 'YES', 'WANAPARTHY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GADWAL', 'BANDLA KRISHNAMOHAN REDDY', 'BRS', '2023-12-03', 94097 , 1, 'YES', 'Jogulamba Gadwal', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GADWAL', 'SARITHA', 'NCP', '2023-12-03', 87061 , 2, 'YES', 'Jogulamba Gadwal', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GADWAL', 'RANJITHKUMAR', 'BJP', '2023-12-03', 13454, 3, 'YES', 'Jogulamba Gadwal', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ALAMPUR', 'VIJEYUDU', 'BRS', '2023-12-03', 104080 , 1, 'YES', 'Jogulamba Gadwal', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ALAMPUR', 'SAMPATH KUMAR', 'NCP', '2023-12-03', 73487 , 2, 'YES', 'Jogulamba Gadwal', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ALAMPUR', 'DR PRASANNA KUMAR', 'BJP', '2023-12-03', 6082, 3, 'YES', 'Jogulamba Gadwal', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAGARKARNOOL', 'KUCHAKULLA RAJESHREDDY', 'NCP', '2023-12-03', 87161 , 1, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAGARKARNOOL', 'MARRI JANARDHAN REDDY', 'BRS', '2023-12-03', 81913 , 2, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAGARKARNOOL', 'K KUMAR', 'BJP', '2023-12-03', 4914, 3, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ACHAMPET', 'CHIKKUDU VAMSIKRISHNA', 'NCP', '2023-12-03', 115337 , 1, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ACHAMPET', 'GUVVALA BALRAJ', 'BRS', '2023-12-03', 66011 , 2, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ACHAMPET', 'SATISH MADIGA', 'BJP', '2023-12-03', 4267, 3, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KOLLAPUR', 'JUPALLI KRISHNARAO', 'NCP', '2023-12-03', 93609 , 1, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KOLLAPUR', 'BHEERAM HARSHAVARDHAN REDDY', 'BRS', '2023-12-03', 63678 , 2, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KOLLAPUR', 'SUDHAKAR RAO', 'BJP', '2023-12-03', 20389, 3, 'YES', 'NAGARKARNOOL', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KALWAKURTHY', 'KASIREDDY NARAYAN REDDY', 'NCP', '2023-12-03', 75858 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KALWAKURTHY', 'TALLOJU ACHARY', 'BJP', '2023-12-03', 70448 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KALWAKURTHY', 'JAIPALYADAV', 'BJP', '2023-12-03', 42847, 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SHADNAGAR', 'VEERAPALLY SHANKER', 'NCP', '2023-12-03', 77817 , 1, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SHADNAGAR', 'ANJAIH YADAV', 'BJP', '2023-12-03', 70687 , 2, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SHADNAGAR', 'VISHNUVARDHAN REDDY', 'AIFBP', '2023-12-03', 31324, 3, 'YES', 'RANGAREDDY', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DEVARAKONDA', 'NENAVATH BALUNAYAK', 'NCP', '2023-12-03', 111332 , 1, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DEVARAKONDA', 'RAMVATH RAVINDRAKUMAR', 'BRS', '2023-12-03', 81315 , 2, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DEVARAKONDA', 'KETHAVATH LALUNAYAK', 'BJP', '2023-12-03', 9812, 3, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAGARJUNASAGAR', 'KUNDUR JAIVEER', 'NCP', '2023-12-03', 119831 , 1, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAGARJUNASAGAR', 'NOMULA BHAGATHKUMAR', 'BRS', '2023-12-03', 79034 , 2, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NAGARJUNASAGAR', 'CHALAMALLA KRISHNAREDDY', 'BJP', '2023-12-03', 6491, 3, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MIRYALAGUDA', 'BATTULA LAXMAREDDY', 'NCP', '2023-12-03', 116102 , 1, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MIRYALAGUDA', 'NALLAMOTHU BHASKARAO', 'BRS', '2023-12-03', 66121 , 2, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MIRYALAGUDA', 'JULAKANTI RANGAREDDY', 'BJP', '2023-12-03', 3271, 3, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUZURNAGAR', 'UTTHAM KUMAR REDDY', 'NCP', '2023-12-03', 116707 , 1, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUZURNAGAR', 'SHANMPUDI SIDIREDDY', 'BRS', '2023-12-03', 71819 , 2, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('HUZURNAGAR', 'PILLUTLA RAGHU', 'FARWARD BLOCK', '2023-12-03', 8280, 3, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KODAD', 'NALAMADA PADMAVATHI REDDY', 'NCP', '2023-12-03', 125783 , 1, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KODAD', 'MALLAIAH YADAV', 'BRS', '2023-12-03', 67611 , 2, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KODAD', 'PILLUTLA SRINIVAS', 'BSP', '2023-12-03', 3369, 3, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SURYAPET', 'GUNTAKANDLA JAGADEESH REDDY', 'BRS', '2023-12-03', 75136 , 1, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SURYAPET', 'RAMREDDY DAMODHARREDDY', 'NCI', '2023-12-03', 70531 , 2, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SURYAPET', 'SANKINENI VENKATESHWERRAO', 'BJP', '2023-12-03', 20389, 3, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Thungathurthi', 'Mandula SAMEL', 'NCP', '2023-12-03', 129535 , 1, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Thungathurthi', 'GADARI KISHOREKUMAR', 'BRS', '2023-12-03', 78441 , 2, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Thungathurthi', 'KADIAM RAMACHANDRAIAH', 'BJP', '2023-12-03', 4406, 3, 'YES', 'SURYAPET', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NALGONDA', 'KOMATIREDDY VENKAREDDY', 'NCP', '2023-12-03', 107405 , 1, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NALGONDA', 'KANCHERLA BHUPALREDDY', 'BRS', '2023-12-03', 53073 , 2, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NALGONDA', 'PILLI RAMARAJU', 'FARWAD BLOCK', '2023-12-03', 27096, 3, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUNUGODE', 'KOMATIREDDY RAJAGOPALREDDY', 'NCP', '2023-12-03', 119624 , 1, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUNUGODE', 'KUNKUNTLA PRABHAKARREDDY', 'BRS', '2023-12-03', 79034 , 2, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MUNUGODE', 'CHALMALLA KRISHNAREDDY', 'BJP', '2023-12-03', 22319, 3, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Nakrekal', 'VEMULA VEERESHAM', 'NCP', '2023-12-03', 133540 , 1, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Nakrekal', 'CHIRUMARTHY LINGAIAH', 'BRS', '2023-12-03', 64701 , 2, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Nakrekal', 'MOGULLAIAH', 'BJP', '2023-12-03', 5668, 3, 'YES', 'NALGONDA', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BHUVANGIRI', 'KUMBHAM ANILKUMAR REDDY', 'NCP', '2023-12-03', 102744 , 1, 'YES', 'YADADHRI-BHUVANGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BHUVANGIRI', 'PYLLA SHEKHAREDDY', 'BRS', '2023-12-03', 76542 , 2, 'YES', 'YADADHRI-BHUVANGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BHUVANGIRI', 'GUDURU NARAYNREDDY', 'BJP', '2023-12-03', 9200, 3, 'YES', 'YADADHRI-BHUVANGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ALAIR', 'BEERLA AILAIAH', 'NCP', '2023-12-03', 121102 , 1, 'YES', 'YADADHRI-BHUVANGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ALAIR', 'GONGIDI SUNITHA', 'BRS', '2023-12-03', 71898 , 2, 'YES', 'YADADHRI-BHUVANGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ALAIR', 'PANDALA SRINIVAS', 'BJP', '2023-12-03', 9920, 3, 'YES', 'YADADHRI-BHUVANGIRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JANGOAN', 'PALLA RAJESHWERREDDY', 'BRS', '2023-12-03', 99975 , 1, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JANGOAN', 'KOMMURI PRATHAPREDDY', 'NCP', '2023-12-03', 83192 , 2, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('JANGOAN', 'ARUTLA DASHAMANTHREDDY', 'BJP', '2023-12-03', 7734, 3, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GHANPUR-STATION', 'KADIAM SRIHARI', 'BRS', '2023-12-03', 101696 , 1, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GHANPUR-STATION', 'SINGAPURAM INDIRA', 'NCP', '2023-12-03', 93917 , 2, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('GHANPUR-STATION', 'VIJAYARAMARAO', 'BJP', '2023-12-03', 4984, 3, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PALAKURTHY', 'YASHASVINIREDDY', 'NCP', '2023-12-03', 126848 , 1, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PALAKURTHY', 'YERRABALLY DHAYAKARARAO', 'BRS', '2023-12-03', 79214 , 2, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PALAKURTHY', 'VENKATREDDY', 'INDEPENDENT', '2023-12-03', 4087, 3, 'YES', 'JANGOAN', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DORNAKAL', 'RAMACHANDRUNAYAK', 'NCP', '2023-12-03', 115587 , 1, 'YES', 'MAHABUBABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DORNAKAL', 'REDYANAYAK', 'BRS', '2023-12-03', 62456 , 2, 'YES', 'MAHABUBABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('DORNAKAL', 'AJMIRA RATNA', 'INDEPENDENT', '2023-12-03', 2773, 3, 'YES', 'MAHABUBABAD', 'TS', 'INDIA');
+
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHABUBABAD', 'BHUKYA MURALINAYAK', 'NCP', '2023-12-03', 116644 , 1, 'YES', 'MAHABUBABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHABUBABAD', 'BANOTH SHANKER NAYAK', 'BRS', '2023-12-03', 66473 , 2, 'YES', 'MAHABUBABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MAHABUBABAD', 'JATOTH HUSSAIN NAYAK', 'BJP', '2023-12-03', 16871, 3, 'YES', 'MAHABUBABAD', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARSAMPET', 'DONTHI MADHAVAREDDY', 'NCP', '2023-12-03', 104185 , 1, 'YES', 'Warangal-Rural', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARSAMPET', 'PEDDI SUDHARSHANREDDY', 'BRS', '2023-12-03', 85296 , 2, 'YES', 'Warangal-Rural', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('NARSAMPET', 'KAMBAMPATI PULLA RAO', 'BJP', '2023-12-03', 3062, 3, 'YES', 'Warangal-Rural', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PARKAL', 'REVURI PRAKASHREDDY', 'NCP', '2023-12-03', 72573 , 1, 'YES', 'Warangal-Rural', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PARKAL', 'CHALLA DHARMAREDDY', 'BRS', '2023-12-03', 64632 , 2, 'YES', 'Warangal-Rural', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PARKAL', 'VADAGALA KALIPRASAD', 'BJP', '2023-12-03', 38735, 3, 'YES', 'Warangal-Rural', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARANGAL-WEST', 'NAYANI RAJENDERREDDY', 'NCP', '2023-12-03', 72649 , 1, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARANGAL-WEST', 'DASYAm VINAYBHASKAR', 'BRS', '2023-12-03', 57318 , 2, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARANGAL-WEST', 'RAO PADMA', 'BJP', '2023-12-03', 30826, 3, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARANGAL-EAST', 'KONDA SUREKHA', 'NCP', '2023-12-03', 67757, 1, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARANGAL-EAST', 'YERRABALLI PRADEEPRAO', 'BJP', '2023-12-03', 52105 , 2, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARANGAL-EAST', 'NANNAPANENI NARENDER', 'BRS', '2023-12-03', 42783, 3, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARDANNAPET', 'KR NAGARAJU', 'NCP', '2023-12-03', 106696, 1, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARDANNAPET', ' ARURI RAMESH', 'BRS', '2023-12-03', 87238 , 2, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WARDANNAPET', 'KONDETI SRIDHAR', 'BJP', '2023-12-03', 12275, 3, 'YES', 'Warangal-Urban', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Bhupalpalle', 'GANDRA SATYANARAYANARAO', 'NCP', '2023-12-03', 123116, 1, 'YES', 'Jayashankar-Bhupalpalle ', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Bhupalpalle', 'GANDRA VENKATARAMREDDY', 'BRS', '2023-12-03', 70417 , 2, 'YES', 'Jayashankar-Bhupalpalle ', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Bhupalpalle', 'CHANDUPATLA KEERTHIREDDY', 'BJP', '2023-12-03', 14731, 3, 'YES', 'Jayashankar-Bhupalpalle ', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MULUGU', 'SEETAKKA', 'NCP', '2023-12-03', 102267, 1, 'YES', 'MULUGU', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MULUGU', 'BADE NAGAJYOTHI', 'BRS', '2023-12-03', 68567 , 2, 'YES', 'MULUGU', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MULUGU', 'AZMEERA PRAHALAD', 'BJP', '2023-12-03', 5388, 3, 'YES', 'MULUGU', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PINAPAKA', 'PAYAM VENKATESHWARLU', 'NCP', '2023-12-03', 90510, 1, 'YES', 'Bhadradri', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PINAPAKA', 'REGA KANTHARAO', 'BRS', '2023-12-03', 56004 , 2, 'YES', 'Bhadradri', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('PINAPAKA', 'PADIYAM BALARAJU', 'BJP', '2023-12-03', 2627, 3, 'YES', 'Bhadradri', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Yellandu', 'KORAM KANAKAYYA', 'NCP', '2023-12-03', 109171, 1, 'YES', 'Bhadradri', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Yellandu', 'BANOTH HARIPRIYA', 'BRS', '2023-12-03', 51862 , 2, 'YES', 'Bhadradri', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Yellandu', 'DHARAVATH RAVINDERNAYAK', 'BJP', '2023-12-03', 2568, 3, 'YES', 'Bhadradri', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHAMMAM', 'TUMMALA NAGESHWARARAO', 'NCP', '2023-12-03', 136016, 1, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHAMMAM', 'PUVVADA AJAYKUMAR', 'BRS', '2023-12-03', 86635 , 2, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KHAMMAM', 'MRIYALA RAMAKRISHNA', 'JANSENA', '2023-12-03', 4040, 3, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Palair', 'PONGULETI SRINIVAS REDDY', 'NCP', '2023-12-03', 127820, 1, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Palair', 'KANDALA UPENDERREDDY', 'BRS', '2023-12-03', 71170 , 2, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('Palair', 'TAMMINENI VEERABADRAM', 'CPM', '2023-12-03', 5308, 3, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MADHIRA', 'MALLU BHATTI VIKRAMARKA', 'NCP', '2023-12-03', 108970, 1, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MADHIRA', 'LINGALA KAMALRAJU', 'BRS', '2023-12-03', 73518 , 2, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('MADHIRA', 'PALADUGU BHASKER', 'CPM', '2023-12-03', 6575, 3, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WYRA', 'MALOTH RAMDAS NAYAK', 'NCP', '2023-12-03', 93913, 1, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WYRA', 'MADANLAL', 'BRS', '2023-12-03', 60868 , 2, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('WYRA', 'BHUKAY VEERABADRAM', 'CPM', '2023-12-03', 4439, 3, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SATTUPALLE', 'MATTA RAGAMAI', 'NCP', '2023-12-03', 11245, 1, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SATTUPALLE', 'SANDRA VENKATA VEERAIAH', 'BRS', '2023-12-03', 91805 , 2, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('SATTUPALLE', 'N RAMALINGESHWARARAO', 'BJP', '2023-12-03', 1830, 3, 'YES', 'KHAMMAM', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KOTHAGUDEM', 'KUNAMNENI SAMBASHIVARAO', 'CPI', '2023-12-03', 80336, 1, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KOTHAGUDEM', 'JALAGAM VENKATRAO', 'FARWARD BLOCK', '2023-12-03', 53789 , 2, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('KOTHAGUDEM', 'VANAMA VENKATESHWARARAO', 'BRS', '2023-12-03', 37226, 3, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ASWARAOPET', 'JARE ADINARAYANARAO', 'NCP', '2023-12-03', 74905, 1, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ASWARAOPET', 'MECHA NAGESHWARARAO', 'BRS', '2023-12-03', 46088 , 2, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('ASWARAOPET', 'PITTALA ARJUN', 'CPM', '2023-12-03', 2488, 3, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BHADRACHALAM', 'TELLAM VENKATARAO', 'BRS', '2023-12-03', 53252, 1, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BHADRACHALAM', 'PADEm VEERAIAH', 'NCP', '2023-12-03', 47533 , 2, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+INSERT INTO politico.results (constitution_name, candidate_name, party_name, results_date, votes_acquired, position_acquired_in_constitution, deposit_hold, district, state, country)
+values('BHADRACHALAM', 'KARAM PULLAIAH', 'CPM', '2023-12-03', 5860, 3, 'YES', 'BHADRADRI', 'TS', 'INDIA');
+
+CREATE TABLE MagicFigure (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    party_name VARCHAR(255),
+    seat_count INT,
+    state VARCHAR(255),
+    country VARCHAR(255)
+);
+
+CREATE TABLE MLA (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    constitution_name VARCHAR(255),
+    candidate_name VARCHAR(255),
+    district VARCHAR(255),
+    state VARCHAR(255),
+    country VARCHAR(255),
+    naminated VARCHAR(255)
+);
+
+CREATE TABLE MP (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    constitution_name VARCHAR(255),
+    candidate_name VARCHAR(255),
+    district VARCHAR(255),
+    state VARCHAR(255),
+    country VARCHAR(255),
+    naminated VARCHAR(255)
+);
+
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password_hash` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) 
+
+CREATE TABLE `politici`.`roles` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `role` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB 
+
+insert into politico.roles (role) values ('user');
+insert into politico.roles (role) values ('admin');
+insert into politico.roles (role) values ('manager');
+
+CREATE TABLE `users_roles` (
+  `user_id` int NOT NULL,
+  `role_id` int NOT NULL,
+  PRIMARY KEY (`user_id`,`role_id`),
+  KEY `role_id` (`role_id`),
+  CONSTRAINT `users_roles_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`),
+  CONSTRAINT `users_roles_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`)
+) ENGINE=InnoDB
+
+CREATE TABLE `politico`.`permissions` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `permission` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0;
+
+insert into politico.permissions(permission) values('read_data');
+insert into politico.permissions(permission) values('edit_data');
+insert into politico.permissions(permission) values('manage_users');
+insert into politico.permissions(permission) values('approve_requests');
+
+CREATE TABLE `politico`.`role_permissions` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `role_id` int DEFAULT NULL,
+  `permission_id` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `role_id` (`role_id`),
+  KEY `permission_id` (`permission_id`),
+  CONSTRAINT `role_permissions_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`),
+  CONSTRAINT `role_permissions_ibfk_2` FOREIGN KEY (`permission_id`) REFERENCES `permissions` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0
+
+CREATE TABLE DISTRICT (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),   
+    state VARCHAR(255),
+    country VARCHAR(255)  
+);
+insert into politico.district(name, state, country) values('Nizamabad','TS','India');
+insert into politico.district(name, state, country) values('Kamareddy','TS','India');
+insert into politico.district(name, state, country) values('Jagityal','TS','India');
+insert into politico.district(name, state, country) values('KarimNagar','TS','India');
+insert into politico.district(name, state, country) values('Adilabad','TS','India');
+insert into politico.district(name, state, country) values('Nirmal','TS','India');
+insert into politico.district(name, state, country) values('Manchiryal','TS','India');
+insert into politico.district(name, state, country) values('Peddapalli','TS','India');
+insert into politico.district(name, state, country) values('Medak','TS','India');
+insert into politico.district(name, state, country) values('Siddipet','TS','India');
+insert into politico.district(name, state, country) values('Warangal','TS','India');
+insert into politico.district(name, state, country) values('Rangareddy','TS','India');
+insert into politico.district(name, state, country) values('Hyderabad','TS','India');
+insert into politico.district(name, state, country) values('Vikarabad','TS','India');
+insert into politico.district(name, state, country) values('Medchal-Malkajgiri','TS','India');
+insert into politico.district(name, state, country) values('Khammam','TS','India');
+insert into politico.district(name, state, country) values('BHADRADRI KOTHAGUDEM','TS','India');
+insert into politico.district(name, state, country) values('MahabubNagar','TS','India');
+insert into politico.district(name, state, country) values('Nalgonda','TS','India');
+insert into politico.district(name, state, country) values('Jangoam','TS','India');
+insert into politico.district(name, state, country) values('JAYASHANKAR BHOOPALPALLY','TS','India');
+insert into politico.district(name, state, country) values('JOGULAMBA GADWAL','TS','India');
+insert into politico.district(name, state, country) values('KOMARAM BHEEM ASIFABAD ','TS','India');
+insert into politico.district(name, state, country) values('MAHABUBABAD','TS','India');
+insert into politico.district(name, state, country) values('MULUG','TS','India');
+insert into politico.district(name, state, country) values('NAGARKURNOOL','TS','India');
+insert into politico.district(name, state, country) values('NARAYANPET','TS','India');
+insert into politico.district(name, state, country) values('RAJANNA SIRCILLA','TS','India');
+insert into politico.district(name, state, country) values('SANGAREDDY','TS','India');
+insert into politico.district(name, state, country) values('SURYAPET','TS','India');
+insert into politico.district(name, state, country) values('WANAPARTHY','TS','India');
+insert into politico.district(name, state, country) values('HANUMAKONDA','TS','India');
+insert into politico.district(name, state, country) values('YADADRI BHUVANAGIRI','TS','India');
+CREATE TABLE STATE (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),  
+    country VARCHAR(255)  
+);
+CREATE TABLE COUNTRY (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255)    
+);
+insert into politico.state (name) values('TS');
+
+insert into politico.country (name) values('INDIA');
+-------------Copy data from 13cardsgmae users, roles, permissions, user-roles, and role_permissions tables position_acquired_in_constitution
+                politico users, roles, permissions, user-roles, and role_permissions tables --------------------------------------
+SET FOREIGN_KEY_CHECKS = 0;
+
+INSERT INTO politico.users (id, username, password_hash, email)
+SELECT username, password_hash, email
+FROM 13cardsgmae.users;
+
+SET FOREIGN_KEY_CHECKS = 1; -- Enable foreign key checks
+
+ALTER TABLE politico.constitution
+ADD reserved VARCHAR(255);
+
+
+ALTER TABLE politico.constitution
+ADD c_number INT;
+
+ALTER TABLE politico.constitution
+DROP COLUMN c_number;
+
+ALTER TABLE politico.constitution
+ADD YEAR YEAR default 2023;
+
+--- Duplicate records ------------------
+SELECT name, COUNT(*) AS occurrences
+FROM constitution
+GROUP BY name
+HAVING COUNT(*) > 1;
+
+ALTER TABLE politico.results
+ADD result_year YEAR default 2023;
+
+ALTER TABLE politico.results
+ADD con_type VARCHAR(255) default 'MLA';
